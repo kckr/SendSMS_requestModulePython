@@ -12,7 +12,7 @@ def sms():
     url2 = "https://vip.sonera.fi/admin/home/sendSms"
     login = s.post(url, data=data)
 
-    receiver = '0469536673'
+    receiver = '04*******3'
     message = 'Did you receive it?'
 
     data2 = {"cocoon-ajax": "true", "forms_submit_id": "send", "message": message, "to": receiver,
